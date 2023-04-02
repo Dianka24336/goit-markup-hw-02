@@ -93,6 +93,7 @@ color:var(--accent-color);
     font-family: inherit;
     font-weight: 500;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-button:hover, 
@@ -145,6 +146,7 @@ text-transform: capitalize
     font-style: inherit;
     font-weight: 500;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filter-tab:hover, 
 .filter-tab:focus {
