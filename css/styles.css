@@ -30,7 +30,9 @@ body {
 .list {
     list-style: none;
 }
-
+.link {
+    text-decoration: none;
+}
 /* Header */
 .logo {
     color: var(--secondary-text-bg-color);
@@ -50,6 +52,7 @@ color:var(--accent-color);
     color: var(--secondary-text-bg-color);
 }
  /* Links */
+
 .nav-list .item {
    color:var(--secondary-text-bg-color);
    font-weight: 500;
@@ -66,7 +69,7 @@ color:var(--accent-color);
 }
 /* address */
 
-.address-list .link {
+.address-list .address-point {
     color: var(--primary-text-color);
     font-style: normal;
        }
