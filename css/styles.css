@@ -69,10 +69,14 @@ color:var(--accent-color);
 }
 /* address */
 
+.address {
+    font-style: normal;  
+}
+
 .address-list .address-point {
     color: var(--primary-text-color);
     font-style: normal;
-       }
+}
 
 .address-point:hover, .address-point:focus {
     color: var(--hover-color);
