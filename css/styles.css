@@ -10,7 +10,6 @@
     --primary-text-color:#434455;
     --secondary-text-bg-color:#2E2F42;
     --accent-color: #4D5AE5;
-    --main-bg-color: #E5E5E5;
     --white-color:#fff;
     --hover-color:#404BBF;
     --team-bg-color:#F4F4FD;
@@ -26,9 +25,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-}
-.link {
-    text-decoration: none;
 }
 
 .list {
@@ -54,7 +50,7 @@ color:var(--accent-color);
     color: var(--secondary-text-bg-color);
 }
  /* Links */
-.nav-list .link {
+.nav-list .item {
    color:var(--secondary-text-bg-color);
    font-weight: 500;
 }
@@ -65,19 +61,17 @@ color:var(--accent-color);
 }
 
 
-.nav-list .link.current {
+.nav-list .item.current {
     color: var(--hover-color);
 }
 /* address */
-.address {
-    font-style: normal;
-}
 
 .address-list .link {
     color: var(--primary-text-color);
+    font-style: normal;
        }
 
-.address .link:hover, .address .link:focus {
+.address-point:hover, .address-point:focus {
     color: var(--hover-color);
 }
 
@@ -171,8 +165,11 @@ text-transform: capitalize
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 }
-
+.filter-list .description {
+    color: var(--primary-text-color);
+}
 /* Footer */
 
 .footer {
