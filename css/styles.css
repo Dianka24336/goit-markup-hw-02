@@ -63,10 +63,6 @@ color:var(--accent-color);
     color: var(--hover-color);
 }
 
-
-.nav-list .item.current {
-    color: var(--hover-color);
-}
 /* address */
 
 .address {
