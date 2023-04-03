@@ -70,11 +70,11 @@ color:var(--accent-color);
 }
 /* address */
 .address .link {
-    color:var(--primary-text-color);
+    color: var(--primary-text-color);
+    font-style: normal;
     }
 
-.address .link:hover,
-.address .link:focus {
+.address .link:hover, .address .link:focus {
     color: var(--hover-color);
 }
 
@@ -97,6 +97,7 @@ color:var(--accent-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-button:hover, 
@@ -148,6 +149,7 @@ text-transform: capitalize
 .filter-tab {
     color:var(--accent-color) ; 
     background-color: var(--team-bg-color);
+    text-decoration: none;
     font-family: inherit;
      font-size: inherit;
     line-height: inherit;
